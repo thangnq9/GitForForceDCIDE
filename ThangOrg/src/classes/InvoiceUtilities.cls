@@ -1,7 +1,7 @@
 global with sharing class InvoiceUtilities {
  
     // class method to renumber Line Items for a given Invoice number
-    // returns a string that indicates success or failure
+    // r1111eturns a string that indicates success or failure
     webservice static String renumberLineItems(String invoiceName) {
  
     // create a copy of the target Invoice object and it's Line Items
